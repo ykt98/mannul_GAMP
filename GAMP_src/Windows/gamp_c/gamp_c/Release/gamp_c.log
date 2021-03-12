@@ -1,0 +1,56 @@
+﻿生成启动时间为 2017/12/20 13:54:39。
+     1>项目“D:\VS2010_proj\gamp_c\gamp_c\gamp_c.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\gamp_c.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\pthreads-w32-2-9-1-release\Pre-built.2\include" /Z7 /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /D ENAGLO /D ENACMP /D ENAGAL /D ENAQZS /D NFREQ=3 /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\gamp_src\brdceph.c ..\gamp_src\gampPos.c ..\gamp_src\ionex.c ..\gamp_src\lambda.c ..\gamp_src\main.c ..\gamp_src\myMath.c ..\gamp_src\myPpp.c ..\gamp_src\myRinex.c ..\gamp_src\myRtkcmn.c ..\gamp_src\myStr.c ..\gamp_src\ppp.c ..\gamp_src\preceph.c ..\gamp_src\prePpp.c ..\gamp_src\results.c ..\gamp_src\rinex.c ..\gamp_src\rtkcmn.c ..\gamp_src\spp.c ..\gamp_src\tides.c
+         brdceph.c
+         gampPos.c
+         ionex.c
+         lambda.c
+         main.c
+         myMath.c
+         myPpp.c
+         myRinex.c
+         myRtkcmn.c
+         myStr.c
+         ppp.c
+         preceph.c
+         prePpp.c
+         results.c
+         rinex.c
+         rtkcmn.c
+         spp.c
+         tides.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2010_proj\gamp_c\Release\gamp_c.exe" /NOLOGO /LIBPATH:"C:\pthreads-w32-2-9-1-release\Pre-built.2\lib\x86" pthreadVSE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\gamp_c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VS2010_proj\gamp_c\Release\gamp_c.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2010_proj\gamp_c\Release\gamp_c.lib" /MACHINE:X86 Release\brdceph.obj
+         Release\gampPos.obj
+         Release\ionex.obj
+         Release\lambda.obj
+         Release\main.obj
+         Release\myMath.obj
+         Release\myPpp.obj
+         Release\myRinex.obj
+         Release\myRtkcmn.obj
+         Release\myStr.obj
+         Release\ppp.obj
+         Release\preceph.obj
+         Release\prePpp.obj
+         Release\results.obj
+         Release\rinex.obj
+         Release\rtkcmn.obj
+         Release\spp.obj
+         Release\tides.obj
+         正在生成代码
+         已完成代码的生成
+         gamp_c.vcxproj -> D:\VS2010_proj\gamp_c\Release\gamp_c.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VS2010_proj\gamp_c\Release\gamp_c.exe;#1" /manifest Release\gamp_c.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\gamp_c.unsuccessfulbuild”。
+         正在对“Release\gamp_c.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VS2010_proj\gamp_c\gamp_c\gamp_c.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.82
